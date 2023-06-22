@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Castoro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Vidaloka&display=swap");
+
+html,
+body {
+  -webkit-transition: all 0.5s ease-in;
+  -moz-transition: all 0.5s ease-in;
+  -ms-transition: all 0.5s ease-in;
+  -o-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  font-family: "Castoro", serif;
+  font-size: small;
+  height: 100%;
+  width: 100%;
+  background-attachment: fixed;
+}
+
+blockquote {
+  font-family: "Vidaloka", serif;
+  text-align: center;
+}
+
+blockquote-footer {
+  font-family: "Vidaloka", serif;
+  text-align: center;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  margin-right: 25px;
+  vertical-align: middle;
+}
+.navbar-header .navbar-brand {
+  height: 100px;
+}
+
+.navbar-header .navbar-brand img {
+  height: 50vh;
+  z-index: 99;
+}
+
+.navbar {
+  position: relative;
+  width: 100%;
+}
+.brand {
+  position: relative;
+  left: 47%;
+  margin-left: -50px !important; /* 50% of your logo width */
+  display: block;
+}
+
+.about-title p {
+  font-size: 4vh;
+}
+
+.services-breaks-list ul {
+  list-style-type: none;
+}
+.services-breaks-list ul a:link {
+  text-decoration: none;
+}
+
+.choose-us p {
+  font-size: 17px;
+}
+
+ul#choose-us-list li {
+  display: inline;
+}
+
+.address p {
+  font-size: 17px;
+}
+
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: #000;
+  text-align: center;
+}
